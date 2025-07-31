@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MySuite">
+    <listeners>
+        <listener class-name="com.cts.miniproject.testlistener.MyListenerCombined"/>
+    </listeners>
+    <test name="Test1">
+        <classes>
+            <class name="com.cts.hackathon.testrunners.TestRunner"/>
+        </classes>
+    </test>
+</suite>
